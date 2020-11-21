@@ -4,10 +4,19 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
+
+    
     <router-view/>
   </div>
 </template>
 
+<script>
+
+import 'bulma/css/bulma.css'
+export default {
+  
+}
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
