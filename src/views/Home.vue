@@ -5,6 +5,16 @@
     <div>
     <Header />
     <Hero />
+
+    <div>
+      <p>lista</p>
+      <ul>
+        <li v-for="jugador in jugadores" :key="jugador.id">
+
+          {{jugador.name}}
+        </li>
+      </ul>
+    </div>
     <Footer />
 
     </div>
@@ -17,6 +27,8 @@
 </template>
 
 <script>
+
+import  { mapActions , mapState} from 'vuex'
 // @ is an alias to /src
 
 import Header from '@/components/Header.vue'
@@ -30,6 +42,20 @@ export default {
     Hero,
     Footer
     
-  }
+  },
+ 
+  computed: {
+    ...mapState(['jugadores']),
+  },
+  methods: {
+    
+    ...mapActions(['getActionsJugadores']),
+
+   
+  },
+  created() {
+    this. getActionsJugadores();
+  },
+  
 }
 </script>

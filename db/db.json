@@ -1,0 +1,14 @@
+{
+    "posts": [
+      { "id": 1, "title": "json-server", "author": "typicode" }
+    ],
+    "comments": [
+      { "id": 1, "body": "some comment", "postId": 1 }
+    ],
+    "profile":  [
+     
+      {  "id": 1 , "name": "Gianluca ", "lastname": "Lapadula","age": 33,"email": "Lapadula","phone": 947761257 },
+      {  "id": 2 , "name": "Claudio ", "lastname": "Pizarro","age": 38,"email": "Claudio@gmail.com","phone": 947761257 },
+      {  "id": 3 , "name": "Raul ", "lastname": "Rui Diaz","age": 38,"email": "raul@gmail.com","phone": 947761257 }
+    ]
+  }

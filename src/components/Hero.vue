@@ -1,10 +1,10 @@
 
 <template>
-<section class="hero is-primary p-6">
+<section class="hero is-danger p-6">
   <div class="hero-body">
     <div class="container">
       <h1 class="title has-text-centered">
-      Nuevo Servicio
+      Lista de Convocados Selecion Peruana
       </h1>
       <h2 class="subtitle has-text-centered">
        {JSON} Serve
@@ -22,6 +22,7 @@
     </div>
   </div>
 </section>  
+
 
 
 </template>
