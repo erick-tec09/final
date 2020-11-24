@@ -9,6 +9,11 @@
      
       {  "id": 1 , "name": "Gianluca ", "lastname": "Lapadula","age": 33,"email": "Lapadula","phone": 947761257 },
       {  "id": 2 , "name": "Claudio ", "lastname": "Pizarro","age": 38,"email": "Claudio@gmail.com","phone": 947761257 },
-      {  "id": 3 , "name": "Raul ", "lastname": "Rui Diaz","age": 38,"email": "raul@gmail.com","phone": 947761257 }
+      {  "id": 3 , "name": "Raul ", "lastname": "Rui Diaz","age": 38,"email": "raul@gmail.com","phone": 947761257 },
+      {  "id": 4 , "name": "Christian ", "lastname": "Cueva","age": 28,"email": "cueva@gmail.com","phone": 947761257 },
+      {  "id": 5 , "name": "Pedro ", "lastname": "Gallese","age": 28,"email": "pedro@gmail.com","phone": 947761257 },
+      {  "id": 6 , "name": "Edinson ", "lastname": "Flores","age": 28,"email": "flores@gmail.com","phone": 947761257 },
+      {  "id": 7 , "name": "Anderson ", "lastname": "Santamaria","age": 28,"email": "santamaria@gmail.com","phone": 947761257 },
+      {  "id": 8 , "name": "luis ", "lastname": "Advincula","age": 28,"email": "dejamecoja@gmail.com","phone": 947761257 }
     ]
   }

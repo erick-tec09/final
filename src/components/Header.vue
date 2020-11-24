@@ -22,9 +22,7 @@
        <router-link to="/">Home</router-link> 
       </a>
 
-      <a class="navbar-item">
-       <router-link to="/about">About</router-link>
-      </a>
+     
 
      
     </div>

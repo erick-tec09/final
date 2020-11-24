@@ -19,18 +19,31 @@ export default new Vuex.Store({
 
 
       async getActionsJugadores( {commit}){
-       const jugadores =[]
-      const info = await fetch('http://localhost:3000/profile')
-      const data = await info.json()
-      console.log(data)
-      this.jugadores = data
+     
+      const data = await fetch('http://localhost:3000/profile')
+      const jugador = await data.json()
+      console.log(jugador)
+      this.jugador = data
 
      
-      commit('setJugadorMutation',jugadores)
+      commit('setJugadorMutation',jugador)
+    },
 
-    
+
+
+    async deletejugadores({ commit}, id){
+
+      
+
+
+
+      commit('delete',id)
 
     },
+
+  
+
+
     created() {
       this.getActionsJugadores();
     },
